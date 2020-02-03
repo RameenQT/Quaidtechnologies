@@ -53,11 +53,7 @@
 									<label for="title" class="col-sm-4 control-label"> Title: <span class="errorstar">*</span></label>
 									<div class="col-sm-8">
 										<input type="text" class="form-control" placeholder=" Title" id="title" name="title" value="{{ old('title',$portfolio->title) }}">
-										@if ($errors->has('title'))
-                                    <span class="help-block">
-                                    <strong>{{ $errors->first('title') }}</strong>
-                                    </span>
-                                @endif
+										
 									</div>
 								</div>
 							</div>
